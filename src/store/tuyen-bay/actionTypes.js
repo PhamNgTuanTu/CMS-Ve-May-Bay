@@ -1,0 +1,32 @@
+/* Lấy danh sách nhân viên */
+export const LAY_DS_TUYEN_BAY = "LAY_DS_TUYEN_BAY"
+export const LAY_DS_TUYEN_BAY_SUCCESS = "LAY_DS_TUYEN_BAY_SUCCESS"
+export const LAY_DS_TUYEN_BAY_FAIL = "LAY_DS_TUYEN_BAY_FAIL"
+
+/* Xem chi tiết nhân viên*/
+export const XEM_CTIET_TUYEN_BAY = "XEM_CTIET_TUYEN_BAY"
+export const XEM_CTIET_TUYEN_BAY_FAIL = "XEM_CTIET_TUYEN_BAY_FAIL"
+export const XEM_CTIET_TUYEN_BAY_SUCCESS = "XEM_CTIET_TUYEN_BAY_SUCCESS"
+
+/**
+ * Thêm nhân viên
+ */
+export const THEM_TUYEN_BAY = "THEM_TUYEN_BAY"
+export const THEM_TUYEN_BAY_MESAGE = "THEM_TUYEN_BAY_MESAGE"
+export const THEM_TUYEN_BAY_FAIL = "THEM_TUYEN_BAY_FAIL"
+ 
+ /**
+  * Chỉnh sửa nhân viên
+  */
+export const LAY_TUYEN_BAY_CAP_NHAT= "LAY_TUYEN_BAY_CAP_NHAT"
+export const TUYEN_BAY_CAP_NHAT= "TUYEN_BAY_CAP_NHAT"
+export const CHAP_NHAN_CAP_NHAT_TUYEN_BAY = "CHAP_NHAN_CAP_NHAT_TUYEN_BAY"
+export const CAP_NHAT_TUYEN_BAY_MESAGE = "CAP_NHAT_TUYEN_BAY_MESAGE"
+export const CAP_NHAT_TUYEN_BAY_FAIL = "CAP_NHAT_TUYEN_BAY_FAIL"
+ 
+ /**
+  * Delete user
+  */
+export const XOA_TUYEN_BAY = "XOA_TUYEN_BAY"
+export const XOA_TUYEN_BAY_MESAGE = "XOA_TUYEN_BAY_MESAGE"
+export const XOA_TUYEN_BAY_FAIL = "XOA_TUYEN_BAY_FAIL"

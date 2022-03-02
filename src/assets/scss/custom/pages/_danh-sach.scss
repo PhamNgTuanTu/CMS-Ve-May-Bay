@@ -1,0 +1,299 @@
+.required {
+    color: #f46a6a !important;
+    padding-left: 5px;
+}
+.validate-error {
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #f46a6a;
+}
+.invalid-input {
+    border-color: #f46a6a !important;
+    padding-right: calc(1.5em + 0.94rem);
+}
+
+.card-title-custom {
+    font-size: 15px;
+    margin: 0 0 7px 0;
+    font-weight: 600;
+    line-height: 2.5;
+}
+
+.custom-thead {
+    height: 100px;
+    width: 3em;
+}
+
+.fix-logo {
+    width: 100px;
+    border-radius: 50%;
+}
+.react-tag-input__tag__remove {
+    background: #556ee6;
+}
+
+.select2-selection__multi-value__remove {
+    background-color: #556ee6;
+}
+
+.select2-selection__multi-value__remove :hover {
+    background-color: #556ee6 !important;
+    cursor: pointer;
+}
+
+.css-xb97g8 {
+    color: #fff !important;
+}
+
+.css-xb97g8:hover {
+    background-color: #556ee6 !important;
+    color: #fff !important;
+}
+.react-tag-input__tag__remove:before,
+.react-tag-input__tag__remove:after {
+    background-color: #fff;
+}
+.react-tag-input__tag {
+    background-color: #d4dbf9 !important;
+}
+.css-1rhbuit-multiValue {
+    background-color: #d4dbf9 !important;
+}
+.react-tag-input__tag__content {
+    color: #333333;
+}
+.css-1rhbuit-multiValue .css-12jo7m5 {
+    //color: #fff !important
+}
+.cursor-pointer {
+    cursor: pointer;
+    width: max-content !important;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.fix-overflow {
+    max-height: 124px;
+    overflow-y: auto;
+}
+.fix-overflow input {
+    font-size: 13px !important;
+}
+.fix-overflow::-webkit-scrollbar {
+    width: 12px;
+}
+
+.fix-overflow::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+
+/* Handle */
+.fix-overflow::-webkit-scrollbar-thumb {
+    box-shadow: inset 0px 5px 5px 0px grey;
+}
+
+/* Handle on hover */
+.fix-overflow::-webkit-scrollbar-thumb:hover {
+    background: #f3f2f3;
+}
+
+.fix-button-footer {
+    justify-content: flex-end;
+}
+
+.fix-overflow input {
+    width: 100% !important;
+}
+/*.fix-input-dien_thoai input{
+  width: 9em !important;
+} */
+.div-w-8em {
+    width: 8em;
+}
+.pl-5px {
+    font-size: 16px;
+}
+.w-100 {
+    width: 100% !important;
+}
+.custom-thead-filter {
+    display: flex;
+    justify-content: space-between;
+    min-width: 7em;
+    align-items: center;
+}
+.custom-thead-filter i {
+    opacity: 0.1;
+}
+
+.is-active {
+    opacity: 1 !important;
+}
+.pagination-custom {
+    display: flex;
+    justify-content: space-between;
+}
+.opc-7 {
+    opacity: 0.7;
+}
+td {
+    max-width: 16em;
+}
+td .text-truncate {
+    white-space: pre-line;
+}
+.custom-card .card {
+    background-color: #d4dbf9 !important;
+}
+.custom-btn-save {
+    width: 69px;
+}
+
+.card {
+    .card-header {
+        background: #fff;
+    }
+    .card-body {
+        .login__logo {
+            position: relative;
+            z-index: 99;
+        }
+    }
+    .bg-soft {
+        @media only screen and (max-width: 768px) {
+            .profile-user-wid {
+                margin-top: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                margin-bottom: 0 !important;
+            }
+        }
+    }
+}
+.has-error > .css-yk16xz-control {
+    border-color: #f46a6a;
+}
+th,
+td {
+    padding: 8px;
+    vertical-align: middle;
+}
+th {
+    height: 40px;
+    text-align: left;
+}
+.fa-sort-up,
+.fa-sort-down {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+// logo hãng bay
+.imguploadlogo {
+    color: #1e2832;
+    font-size: 7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    position: relative;
+}
+#imglogo {
+    color: black;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-align: center;
+}
+h4 > strong {
+    color: #ff3f3f;
+}
+
+.imguploadlogo.ok {
+    display: none;
+    color: green;
+    min-height: 200px;
+}
+#img-valuelogo {
+    color: green;
+    font-weight: 700;
+}
+.imguploadlogo.stop {
+    display: none;
+    color: #f46a6a;
+    text-align: center;
+}
+
+#logo {
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    width: 200px;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 40px;
+    height: 50px;
+}
+.control-input {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+.control-input:hover {
+    background: rgba(125, 129, 199, 0.5);
+    transition: 0.5s;
+}
+.image-upload {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.has-error-file {
+    border: 1px solid #f46a6a !important;
+    border-radius: 4px;
+}
+.show-error {
+    font-size: 80%;
+    color: #f46a6a;
+    margin-top: 0.25rem;
+}
+@font-face {
+      font-family: 'fontello';
+      src: url('/assets/fonts/fontello-e178d658/font/fontello.eot?70384967');
+      src: url('/assets/fonts/fontello-e178d658/font/fontello.eot?70384967#iefix') format('embedded-opentype'),
+           url('/assets/fonts/fontello-e178d658/font/fontello.woff?70384967') format('woff'),
+           url('/assets/fonts/fontello-e178d658/font/fontello.ttf?70384967') format('truetype'),
+           url('/assets/fonts/fontello-e178d658/font/fontello.svg?70384967#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+.custom-icon {
+    font-family: "fontello";
+}
+.icon-stickets:before { content: '\e800'; } /* '' */
+.disable-delete {
+   cursor: not-allowed;
+   opacity: 0.6; 
+}
+
+.imguploadlogo img {
+    max-width: 100%;
+    height: auto;
+}
